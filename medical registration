@@ -1,0 +1,57 @@
+<html>
+<body bgcolor = pink>
+</body>
+<h1><center>REGISTRATION FORM</center></h1>
+
+<form id="medical-form">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="no">Contact No:  </label><br>
+  <input type="number" id="no" name="no"<br><br><br>
+  <label for="address">Address:  </label><br>
+  <input type="text" id="address" name="add"<br><br><br> 
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="dob">Date of Birth:</label><br>
+  <input type="date" id="dob" name="dob"><br>
+  <label for="gender">Gender:</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br>
+  <label for="medical-conditions">Medical Conditions:</label><br>
+  <textarea id="medical-conditions" name="medical-conditions"></textarea><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<style>
+    #medical-form {
+      width: 500px;
+      margin: 0 auto;
+      font-family: Arial, sans-serif;
+    }
+    #medical-form label {
+      display: block;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    #medical-form input, #medical-form textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    #medical-form input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    #medical-form input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
